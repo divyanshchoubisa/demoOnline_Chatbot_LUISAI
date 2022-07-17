@@ -1,0 +1,437 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "goodbye",
+      "features": []
+    },
+    {
+      "name": "Greetings",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "ordertshirts",
+      "features": []
+    },
+    {
+      "name": "SearchTshirts",
+      "features": []
+    },
+    {
+      "name": "storeContains",
+      "features": []
+    },
+    {
+      "name": "tshirtstypes",
+      "features": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "brands",
+      "children": [],
+      "roles": [],
+      "features": []
+    }
+  ],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "bye",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "bye bye!",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "catch you later",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "details of items that i can look for",
+      "intent": "storeContains",
+      "entities": []
+    },
+    {
+      "text": "find t-shirts of ucb",
+      "intent": "SearchTshirts",
+      "entities": [
+        {
+          "entity": "brands",
+          "startPos": 17,
+          "endPos": 19,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "get money from credit card",
+      "intent": "ordertshirts",
+      "entities": []
+    },
+    {
+      "text": "get money from debit card",
+      "intent": "ordertshirts",
+      "entities": []
+    },
+    {
+      "text": "goodbye",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "greetings !",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "have a good day",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "have a nice day",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hey there",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "i am going to buy these brands, share the bill",
+      "intent": "ordertshirts",
+      "entities": [
+        {
+          "entity": "brands",
+          "startPos": 18,
+          "endPos": 22,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "i am looking for some item to buy",
+      "intent": "storeContains",
+      "entities": []
+    },
+    {
+      "text": "i gotta take off",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "i want to buy something",
+      "intent": "storeContains",
+      "entities": []
+    },
+    {
+      "text": "i’m out",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "internet banking",
+      "intent": "ordertshirts",
+      "entities": []
+    },
+    {
+      "text": "list of items that you sell ?",
+      "intent": "storeContains",
+      "entities": []
+    },
+    {
+      "text": "looking for xyz",
+      "intent": "SearchTshirts",
+      "entities": [
+        {
+          "entity": "brands",
+          "startPos": 12,
+          "endPos": 14,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "okay i want to buy 4 levis tshirts share the payment details",
+      "intent": "ordertshirts",
+      "entities": [
+        {
+          "entity": "brands",
+          "startPos": 21,
+          "endPos": 25,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "open t-shirt gallery of levis",
+      "intent": "SearchTshirts",
+      "entities": [
+        {
+          "entity": "brands",
+          "startPos": 24,
+          "endPos": 28,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "price range of t-shirt ?",
+      "intent": "tshirtstypes",
+      "entities": []
+    },
+    {
+      "text": "print invoice",
+      "intent": "ordertshirts",
+      "entities": []
+    },
+    {
+      "text": "print the bill",
+      "intent": "ordertshirts",
+      "entities": []
+    },
+    {
+      "text": "provide information on different brands",
+      "intent": "tshirtstypes",
+      "entities": []
+    },
+    {
+      "text": "provide the information of xyz brand",
+      "intent": "SearchTshirts",
+      "entities": [
+        {
+          "entity": "brands",
+          "startPos": 27,
+          "endPos": 29,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "see you later",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "see you soon",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "share payment details",
+      "intent": "ordertshirts",
+      "entities": []
+    },
+    {
+      "text": "share price of t-shirt",
+      "intent": "tshirtstypes",
+      "entities": []
+    },
+    {
+      "text": "share the brand of t-shirts?",
+      "intent": "tshirtstypes",
+      "entities": []
+    },
+    {
+      "text": "share the brands",
+      "intent": "tshirtstypes",
+      "entities": []
+    },
+    {
+      "text": "share the brands details",
+      "intent": "tshirtstypes",
+      "entities": []
+    },
+    {
+      "text": "share the details of xyz brands",
+      "intent": "SearchTshirts",
+      "entities": [
+        {
+          "entity": "brands",
+          "startPos": 21,
+          "endPos": 23,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "share the list of items that you sell here.",
+      "intent": "storeContains",
+      "entities": []
+    },
+    {
+      "text": "share the tshirts of xyz",
+      "intent": "SearchTshirts",
+      "entities": [
+        {
+          "entity": "brands",
+          "startPos": 21,
+          "endPos": 23,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "show category of t-shirts you want to buy",
+      "intent": "tshirtstypes",
+      "entities": []
+    },
+    {
+      "text": "show different t-shirts of xyz",
+      "intent": "SearchTshirts",
+      "entities": [
+        {
+          "entity": "brands",
+          "startPos": 27,
+          "endPos": 29,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "show me some photos of t-shirts of rodster",
+      "intent": "SearchTshirts",
+      "entities": [
+        {
+          "entity": "brands",
+          "startPos": 35,
+          "endPos": 41,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "show some t-shirts to buy of adidas.",
+      "intent": "SearchTshirts",
+      "entities": [
+        {
+          "entity": "brands",
+          "startPos": 29,
+          "endPos": 34,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "show t-shirts for women",
+      "intent": "tshirtstypes",
+      "entities": []
+    },
+    {
+      "text": "show tshirts for men",
+      "intent": "tshirtstypes",
+      "entities": []
+    },
+    {
+      "text": "suggest something to buy",
+      "intent": "storeContains",
+      "entities": []
+    },
+    {
+      "text": "take care",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "talk to you later",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "want to buy t-shirts of levis",
+      "intent": "SearchTshirts",
+      "entities": [
+        {
+          "entity": "brands",
+          "startPos": 24,
+          "endPos": 28,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "welcome",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "what can i buy here ?",
+      "intent": "storeContains",
+      "entities": []
+    },
+    {
+      "text": "what different items are provided here?",
+      "intent": "storeContains",
+      "entities": []
+    },
+    {
+      "text": "what do you sell ?",
+      "intent": "storeContains",
+      "entities": []
+    },
+    {
+      "text": "what does this shopping store provides?",
+      "intent": "storeContains",
+      "entities": []
+    },
+    {
+      "text": "what is the color of tshirt",
+      "intent": "tshirtstypes",
+      "entities": []
+    },
+    {
+      "text": "what is the size of tshirt",
+      "intent": "tshirtstypes",
+      "entities": []
+    },
+    {
+      "text": "what should i buy here ?",
+      "intent": "storeContains",
+      "entities": []
+    },
+    {
+      "text": "which brand of t-shirt ?",
+      "intent": "tshirtstypes",
+      "entities": []
+    },
+    {
+      "text": "which brands do you have ?",
+      "intent": "tshirtstypes",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "onlineStore",
+  "desc": "Conversation related to online shopping. ",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
