@@ -8,4 +8,9 @@ AGAIN, the model is expandable and can further be trained as per the business re
 The model has 6 intents mainly. These intents are shown in the below image. <br/>
 <br/>
 ![image](https://user-images.githubusercontent.com/32264134/179413467-e01da029-ac30-4770-a139-5d6b5af051f6.png)
-
+<br/>
+And has different ENTITES. Everything is easily expandable as per the client and business requirements.<br/><br/>
+**Coming to the application**
+The application is designed in a way such that whatever input the user enters, the cognitive feature is going to identify its intent and respond accordingly.<br/><br/>
+*Conversation flow*
+Consider a scenario, where a user comes to chatbot and say starts conversation with a greeting and then asks for the available material in the store for sale. Then starts looking for t-shirts to buy with their brands and other choices. And at the end finally asks for payment details and end the conversation with a goodbye message.<br/><br/>
